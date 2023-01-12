@@ -9,8 +9,8 @@
 ~~~
 Листинг программы С# по выполнению Задачи 2
 ~~~
-[КОД](.\SpontaneousApproach\Task1_Finding_Max_and_Min_Number\Program.cs)  
-[Блок-схема](.\SpontaneousApproach\Task1_Finding_Max_and_Min_Number\diagram.jpg)
+[КОД](SpontaneousApproach\Task1_Finding_Max_and_Min_Number\Program.cs)  
+[Блок-схема](SpontaneousApproach\Task1_Finding_Max_and_Min_Number\diagram.drawio.png)
 
 
 
