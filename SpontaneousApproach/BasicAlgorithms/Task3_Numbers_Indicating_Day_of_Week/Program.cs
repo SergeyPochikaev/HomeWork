@@ -1,2 +1,23 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Задача 15: Напишите программу, которая принимает на вход цифру,
+//обозначающую день недели, и проверяет, является ли этот день выходным.
+
+Console.Clear();
+Console.WriteLine("Условие: Цифры от 1 до 5 включительно являются \nрабочими днями, а [6,7] - выходные. \nМожно вести число от количество дней в году, \nно число 1 будет являться Пн нового года");
+int xa = 0, ya = 4;
+Console.SetCursorPosition(xa, ya);
+Console.WriteLine("----------------------------------------------");
+
+Console.Write("Ведите номер дня N в году = ");
+int N = Convert.ToInt32(Console.ReadLine());
+
+// Дни недели
+//1  2  3  4  5  6  7
+//Пн Вт Ср Чт Пт Сб Вс
+string[] WeekDay = {"Пн","Вт","Ср","Чт","Пт","Сб","Вс"};
+int day = N % 7;
+if (day >= 1 && day <= 5)
+Console.Write($"День недели {day}, т.е. {WeekDay[day-1]} - Будний");
+else if (day > 5)
+Console.Write($"День недели {day}, т.е. {WeekDay[day-1]} - Выходной");
+else 
+Console.Write($"День недели 7, т.е. {WeekDay[6]}  - Выходной");

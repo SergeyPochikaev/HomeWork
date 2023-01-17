@@ -10,7 +10,7 @@ Console.WriteLine("-----------------------------------------");
 Console.Write("Ведите число N = ");
 int N = Convert.ToInt32(Console.ReadLine());
 
-// Определение разряда из набраного числа 
+// Определение разряда из набранного числа 
 int i = 0;
 int Num = N;
 while (N > 0)
