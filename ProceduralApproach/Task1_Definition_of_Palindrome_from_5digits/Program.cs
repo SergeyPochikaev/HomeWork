@@ -17,8 +17,8 @@ bool CheckOnPalindrome(long value)
   long inverseValue = 0;
   while (n > 0)
   {
-    long o = n % 10;
-    inverseValue = inverseValue * 10 + o;
+    long remains = n % 10;
+    inverseValue = inverseValue * 10 + remains;
     n = n / 10;
   }
   return value == inverseValue;
@@ -28,5 +28,3 @@ InputCondition();
 long n = Convert.ToInt64(Console.ReadLine());
 if (CheckOnPalindrome(n)) Console.WriteLine($"Число n = {n} является палиндромом");
 else Console.WriteLine($"Число n = {n} не является палиндромом");
-
-
