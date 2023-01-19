@@ -10,7 +10,7 @@ void InputCondition()
   Console.Write("Ведите число n = ");
 }
 
-// Метод - Определение палиндрома
+// // Метод - Определение палиндрома
 bool CheckOnPalindrome(long value)
 {
   long n = value;
@@ -24,7 +24,14 @@ bool CheckOnPalindrome(long value)
   return value == inverseValue;
 }
 
+string Output(long num)
+{
+string txt = $"Число n = {num} ";
+txt += CheckOnPalindrome(num) ? "является палиндромом" : "не является палиндромом";
+return txt;
+}
+
 InputCondition();
 long n = Convert.ToInt64(Console.ReadLine());
-if (CheckOnPalindrome(n)) Console.WriteLine($"Число n = {n} является палиндромом");
-else Console.WriteLine($"Число n = {n} не является палиндромом");
+string result = Output(n);
+Console.WriteLine(result);

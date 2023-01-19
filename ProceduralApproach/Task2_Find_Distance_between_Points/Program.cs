@@ -2,15 +2,9 @@
 //точек и находит расстояние между ними в 3D пространстве.
 
 // Метод - Ввода точек по координатно
-double GetValuePointA(string text)
+double GetValuePoint(string text, string point)
 {
-  Console.Write($"Координата точки A {text}");
-  return Convert.ToDouble(Console.ReadLine());
-}
-
-double GetValuePointB(string text)
-{
-  Console.Write($"Координата точки B {text}");
+  Console.Write($"Координата точки {point} {text}");
   return Convert.ToDouble(Console.ReadLine());
 }
 
@@ -24,7 +18,7 @@ double GetDistance(double x1, double y1, double z1,
 }
 
 
-double x1 = GetValuePointA("x1 = "), y1 = GetValuePointA("y1 = "), z1 = GetValuePointA("z1 = "),
-       x2 = GetValuePointB("x2 = "), y2 = GetValuePointB("y2 = "), z2 = GetValuePointB("z2 = ");
-double distance = GetDistance(x1, y1, z1, x2, y2, z2);
+double x1 = GetValuePoint("x1 = ", "A"), y1 = GetValuePoint("y1 = ", "A"), z1 = GetValuePoint("z1 = ", "A"),
+       x2 = GetValuePoint("x2 = ", "B"), y2 = GetValuePoint("y2 = ", "B"), z2 = GetValuePoint("z2 = ", "B");
+double distance = Math.Round(GetDistance(x1, y1, z1, x2, y2, z2),2);
 Console.WriteLine($"Расстояние между точками A и B равна {distance}");
