@@ -15,9 +15,8 @@ double GetValuePointB(string text)
 }
 
 // Метод - получения расстояния м/у 2-мя точками
-double GetDistance(double x1, double y1,
-                   double z1, double x2,
-                   double y2, double z2)
+double GetDistance(double x1, double y1, double z1,
+                   double x2, double y2, double z2)
 {
   return Math.Sqrt(Math.Pow((x1 - x2), 2) +
                    Math.Pow((y1 - y2), 2) +
@@ -25,11 +24,7 @@ double GetDistance(double x1, double y1,
 }
 
 
-double x1 = GetValuePointA("x1 = "),
-       y1 = GetValuePointA("y1 = "),
-       z1 = GetValuePointA("z1 = "),
-       x2 = GetValuePointB("x2 = "),
-       y2 = GetValuePointB("y2 = "),
-       z2 = GetValuePointB("z2 = ");
+double x1 = GetValuePointA("x1 = "), y1 = GetValuePointA("y1 = "), z1 = GetValuePointA("z1 = "),
+       x2 = GetValuePointB("x2 = "), y2 = GetValuePointB("y2 = "), z2 = GetValuePointB("z2 = ");
 double distance = GetDistance(x1, y1, z1, x2, y2, z2);
 Console.WriteLine($"Расстояние между точками A и B равна {distance}");
