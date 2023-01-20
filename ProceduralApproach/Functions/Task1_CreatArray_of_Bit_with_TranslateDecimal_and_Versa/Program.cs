@@ -2,55 +2,45 @@
 //заполненный нулями и единицами в случайном порядке, где реализовать
 //перевод двоичного числа в десятичное.
 
-// Метод задания N элементов пользователя
+// Метод задания N элементов для двоичного массива
 int GetNumberByUser(string text)
 {
-  //Console.Clear();
-  Console.Write($"Введите целое число N = {text}");
+  Console.Clear();
+  Console.Write($"Введите разряд двоичного числа N = {text}");
   return Convert.ToInt32(Console.ReadLine());
 }
 
-// Метод создания массива
-int[] CreateArray(int size)
+// Метод создания двоичного массива с первым значением элемента равной 1
+int[] CreateArrayBin(int size)
 {
   int[] array = new int[size];
   for (int i = 0; i < array.Length; i++)
   {
     array[i] = new Random().Next(0, 2);
-    array[0] = 1;
   }
+  array[0] = 1;
   return array;
 }
 
-// Вывод отсортированных случайных чисел:
-int ConvertArrayBitOnVersa(int[] array)
+// Конвертация массива из 2-ого в 10-ое:
+int ConvertArrayBitOnDecimal(int[] array)
 {
-
-}
-// count = 0;
-// Console.WriteLine("");
-// Console.WriteLine("Отсортированы следующие четные числа: ");
-// while (count < N)
-// {
-//   if (array[count] % 2 == 0)
-//   {
-//     Console.Write(" ");
-//     Console.Write(array[count]);
-//   }
-//   count++;
-// }
-
-// Метод по распечатки результата
-string Print(int[] numbers)
-{
-  string output = String.Empty;
-  int size = numbers.Length;
-  for (int i = 0; i < size; i++)
+  int sum = 0;
+  for (int i = 0; i < array.Length; i++)
   {
-    output = output + String.Join(" ", $"{numbers[i]} ");
+    sum += array[i] * Convert.ToInt32(Math.Pow(2, array.Length - i - 1));
   }
-  return output;
+  return sum;
 }
+
+//Печать 2-ого числа и конвертированного 10-ое число
+string GoodPrint(int[] bin, int dec)
+{
+  return $"{String.Join(" ", bin)} >> {dec}";
+}
+
 
 int n = GetNumberByUser("");
-Console.WriteLine(Print(CreateArray(n)));
+int[] bin = CreateArrayBin(n);
+int dec = ConvertArrayBitOnDecimal(bin);
+Console.WriteLine(GoodPrint(bin, dec));
