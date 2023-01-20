@@ -4,12 +4,13 @@
 // Метод считать от пользователя N
 int GetNumberByUser(string text)
 {
+  Console.Clear();
   Console.Write($"Введите целое число N = {text}");
   return Convert.ToInt32(Console.ReadLine());
 }
 
 // Метод создания массива
-int[] CreatArray(int size)
+int[] CreateArray(int size)
 {
   return new int[size+1];
 }
@@ -37,6 +38,6 @@ string Print(int[] numbers)
 }
 
 int countByUser = GetNumberByUser("");
-int[] list = CreatArray(countByUser);
+int[] list = CreateArray(countByUser);
 GetCubes(list);
 Console.WriteLine(Print(list));
