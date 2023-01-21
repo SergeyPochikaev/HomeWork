@@ -43,3 +43,7 @@ int n = GetNumberByUser("");
 int[] bin = CreateArrayBin(n);
 int dec = ConvertArrayBitOnDecimal(bin);
 Console.WriteLine(GoodPrint(bin, dec));
+
+
+// int n = GetNumberByUser("");
+// Console.WriteLine(GoodPrint(CreateArrayBin(n), ConvertArrayBitOnDecimal(CreateArrayBin(n))));

@@ -13,7 +13,7 @@
 |*3*|*Задача 6*|*Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка)*|__*Пример:*__ 4 -> да|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/SpontaneousApproach/Task3_Even_or_Odd_Number/Program.cs) [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/SpontaneousApproach/Task3_Even_or_Odd_Number/diagram.drawio.png)|
 |*4*|*Задача 8*|*Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N*|__*Пример:*__ 5 -> 2, 4|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/SpontaneousApproach/Task4_Determines_only_Even_Numbers/Program.cs) [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/SpontaneousApproach/Task4_Determines_only_Even_Numbers/diagram.drawio.png)|
 ---
-## __*1. Задачи по 2 семинару "Базовые алгоритмы"*__
+## __*2. Задачи по 2 семинару "Базовые алгоритмы"*__
 ~~~
 Задачи и их способы решения по Семинару 2 указаны в табл.№2
 ~~~
@@ -43,4 +43,19 @@ InputCondition();
 long n = Convert.ToInt64(Console.ReadLine());
 if (CheckOnPalindrome(n)) Console.WriteLine($"Число n = {n} является палиндромом");
 else Console.WriteLine($"Число n = {n} не является палиндромом");
+```
+## __*2. Задачи по 4 семинару "Функции"*__
+~~~
+Задачи и их способы решения по Семинару 3 указаны в табл.№1
+~~~
+## __*Табл.№1 - Задачи по 1-му семинару*__
+|__*№*__|__*Наименование*__|__*Условия задачи*__|__*Комментарии*__|__*Приложение*__|
+|:-----:|:----------------:|:------------------:|:---------------:|:--------------:|
+|*1*|*Задача 777*|*Напишите программу, которая выводит массив из N элементов, заполненный нулями и единицами в случайном порядке, но с 1-м элементом массива равным значением 1, а также реализовать перевод двоичного числа (созданного массива) в десятичное*|*При сокращении клиентского кода некорректно выдает значения массива и перевода в десятичное число (см. примечание *)* __*Пример:*__ 111000 -> 56|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ProceduralApproach/Functions/Task1_CreatArray_of_Bit_with_TranslateDecimal_and_Versa/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ProceduralApproach/Functions/Task1_CreatArray_of_Bit_with_TranslateDecimal_and_Versa/diagram.drawio.png)| 
+|*2*|*Задача 27*|*Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе*|__*Пример:*__ 452 -> 11|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ProceduralApproach/Functions/Task2_DefinesSum_in_Numder/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ProceduralApproach/Functions/Task2_DefinesSum_in_Numder/diagram.drawio.png)|
+---
+__* Примечание:__
+```c#
+int n = GetNumberByUser("");
+Console.WriteLine(GoodPrint(CreateArrayBin(n), ConvertArrayBitOnDecimal(CreateArrayBin(n))));
 ```
