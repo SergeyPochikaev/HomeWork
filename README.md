@@ -24,13 +24,13 @@
 |*2*|*Задача 13*|*Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет*|__*Пример:*__ 645->5; 78->Такой цифры нет; 32679->6|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/SpontaneousApproach/BasicAlgorithms/Task2_Output_3_Number_from_Any_Integer/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/SpontaneousApproach/BasicAlgorithms/Task2_Output_3_Number_from_Any_Integer/diagram.drawio.png)|
 |*3*|*Задача 15*|*Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным*|__*Пример:*__ 6->да; 7->нет; 1->нет|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/SpontaneousApproach/BasicAlgorithms/Task3_Numbers_Indicating_Day_of_Week/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/SpontaneousApproach/BasicAlgorithms/Task3_Numbers_Indicating_Day_of_Week/diagram.drawio.png)|
 ---
-## __I. Задачи реализованы процедурным методом__
+## __II. Задачи реализованы процедурным методом__
 ---
 ## __*1. Задачи по 3 семинару "Базовые алгоритмы (Продолжение)"*__
 ~~~
 Задачи и их способы решения по Семинару 3 указаны в табл.№1
 ~~~
-## __*Табл.№1 - Задачи по 1-му семинару*__
+## __*Табл.№1 - Задачи по 3-му семинару*__
 |__*№*__|__*Наименование*__|__*Условия задачи*__|__*Комментарии*__|__*Приложение*__|
 |:-----:|:----------------:|:------------------:|:---------------:|:--------------:|
 |*1*|*Задача 19*|*Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом*|*Требуется доработка метода **CheckOnPalindrome** с добавлением условия вывода расширенного текста bool операции (см. примечание *)* __*Пример:*__ 14212 -> нет;12821 -> да|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ProceduralApproach/Task1_Definition_of_Palindrome_from_5digits/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ProceduralApproach/Task1_Definition_of_Palindrome_from_5digits/diagram.drawio.png)| 
@@ -48,7 +48,7 @@ else Console.WriteLine($"Число n = {n} не является палиндр
 ~~~
 Задачи и их способы решения по Семинару 3 указаны в табл.№1
 ~~~
-## __*Табл.№1 - Задачи по 1-му семинару*__
+## __*Табл.№1 - Задачи по 4-му семинару*__
 |__*№*__|__*Наименование*__|__*Условия задачи*__|__*Комментарии*__|__*Приложение*__|
 |:-----:|:----------------:|:------------------:|:---------------:|:--------------:|
 |*1*|*Задача 777*|*Напишите программу, которая выводит массив из N элементов, заполненный нулями и единицами в случайном порядке, но с 1-м элементом массива равным значением 1, а также реализовать перевод двоичного числа (созданного массива) в десятичное*|*При сокращении клиентского кода некорректно выдает значения массива и перевода в десятичное число (см. примечание *)* __*Пример:*__ 111000 -> 56|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ProceduralApproach/Functions/Task1_CreatArray_of_Bit_with_TranslateDecimal_and_Versa/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ProceduralApproach/Functions/Task1_CreatArray_of_Bit_with_TranslateDecimal_and_Versa/diagram.drawio.png)| 
