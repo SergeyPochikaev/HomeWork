@@ -59,3 +59,14 @@ __* Примечание:__
 int n = GetNumberByUser("");
 Console.WriteLine(GoodPrint(CreateArrayBin(n), ConvertArrayBitOnDecimal(CreateArrayBin(n))));
 ```
+## __III. Задачи по одномерному массиву__
+---
+## __*1. Задачи по 5 семинару "Функции и одномерные массивы"*__
+~~~
+Задачи и их способы решения по Семинару 5 указаны в табл.№1
+~~~
+## __*Табл.№1 - Задачи по 5-му семинару*__
+|__*№*__|__*Наименование*__|__*Условия задачи*__|__*Комментарии*__|__*Приложение*__|
+|:-----:|:----------------:|:------------------:|:---------------:|:--------------:|
+|*1*|*Задача 37*|*Найдите произведение пар чисел в одномерном массиве. Парой считаем первый и последний элемент, второй и предпоследний и т.д. Результат запишите в новом массиве|Требуется реализовать как минимум 3-мя методами|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Task1_Multiplication_of_Pairs_of_Numbers/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Task1_Multiplication_of_Pairs_of_Numbers/diagram.drawio.png)|
+---
