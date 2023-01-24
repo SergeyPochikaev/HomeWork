@@ -14,7 +14,7 @@ int GetNumberByUser(string text)
 int[] CreateArrayBin(int size)
 {
   int[] array = new int[size];
-  for (int i = 0; i < array.Length; i++)
+  for (int i = 1; i < array.Length; i++)
   {
     array[i] = new Random().Next(0, 2);
   }
@@ -39,11 +39,21 @@ string GoodPrint(int[] bin, int dec)
   return $"{String.Join(" ", bin)} >> {dec}";
 }
 
+string Print(int[] bin)
+{
+  return $"{String.Join(" ", bin)}";
+}
+
+// int n = GetNumberByUser("");
+// int[] bin = CreateArrayBin(n);
+// int dec = ConvertArrayBitOnDecimal(bin);
+// Console.WriteLine(GoodPrint(bin, dec));
+
+
 int n = GetNumberByUser("");
 int[] bin = CreateArrayBin(n);
 int dec = ConvertArrayBitOnDecimal(bin);
-Console.WriteLine(GoodPrint(bin, dec));
-
-
-// int n = GetNumberByUser("");
-// Console.WriteLine(GoodPrint(CreateArrayBin(n), ConvertArrayBitOnDecimal(CreateArrayBin(n))));
+Console.Write(Print(bin));
+Console.Write(" > ");
+Console.WriteLine(dec);
+Console.WriteLine(GoodPrint(CreateArrayBin(n), ConvertArrayBitOnDecimal(CreateArrayBin(n))));
