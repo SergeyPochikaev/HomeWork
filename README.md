@@ -68,5 +68,15 @@ Console.WriteLine(GoodPrint(CreateArrayBin(n), ConvertArrayBitOnDecimal(CreateAr
 ## __*Табл.№1 - Задачи по 5-му семинару*__
 |__*№*__|__*Наименование*__|__*Условия задачи*__|__*Комментарии*__|__*Приложение*__|
 |:-----:|:----------------:|:------------------:|:---------------:|:--------------:|
-|*1*|*Задача 37*|*Найдите произведение пар чисел в одномерном массиве. Парой считаем первый и последний элемент, второй и предпоследний и т.д. Результат запишите в новом массиве|Требуется реализовать как минимум 3-мя методами|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Task1_Multiplication_of_Pairs_of_Numbers/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Task1_Multiplication_of_Pairs_of_Numbers/diagram.drawio.png)|
+|*1*|*Задача 37*|*Найдите произведение пар чисел в одномерном массиве. Парой считаем первый и последний элемент, второй и предпоследний и т.д. Результат запишите в новом массиве*|*Требуется реализовать как минимум 3-мя методами*|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Task1_Multiplication_of_Pairs_of_Numbers/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Task1_Multiplication_of_Pairs_of_Numbers/diagram.drawio.png)|
+---
+## __*2. Задачи по 6 семинару "Одномерные массивы. Продолжение"*__
+~~~
+Задачи и их способы решения по Семинару 5 указаны в табл.№2
+~~~
+## __*Табл.№2 - Задачи по 6-му семинару*__
+|__*№*__|__*Наименование*__|__*Условия задачи*__|__*Комментарии*__|__*Приложение*__|
+|:-----:|:----------------:|:------------------:|:---------------:|:--------------:|
+|*1*|*Задача 41*|*Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.*|__*Пример:*__ 0,7,8,-2,-2 -> 2; 1,-7,567,89,223 -> 3|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Continuation/Task1_InputNumbers_OutputCountMoreZero/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Continuation/Task1_InputNumbers_OutputCountMoreZero/diagram.drawio.png)|
+|*2*|*Задача 43*|*Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.*|__*Пример:*__ b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Continuation/Task2_PointIntersection_of_2_StraightLines/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Continuation/Task2_PointIntersection_of_2_StraightLines/diagram.drawio.png)|
 ---
