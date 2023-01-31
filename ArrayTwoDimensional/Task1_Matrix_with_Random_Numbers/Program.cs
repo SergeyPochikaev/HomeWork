@@ -30,7 +30,7 @@ void PrintArray(double[,] matr)
   {
     for (int j = 0; j < matr.GetLength(1); j++)
     {
-      Console.Write($"{Convert.ToDecimal(Math.Round(matr[i, j], 1))};");
+      Console.Write($"{Convert.ToDecimal(Math.Round(matr[i, j], 1))}|");
     }
     Console.WriteLine();
   }
@@ -38,5 +38,3 @@ void PrintArray(double[,] matr)
 
 double[,] number = GetMatrixRandom(GetSizeMatrix().length, GetSizeMatrix().width);
 PrintArray(number);
-
-
