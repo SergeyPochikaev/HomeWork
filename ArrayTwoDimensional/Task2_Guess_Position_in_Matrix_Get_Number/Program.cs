@@ -28,7 +28,7 @@ int[,] GetMatrixRandom(int length, int width)
   {
     for (int j = 0; j < matrix.GetLength(1); j++)
     {
-      matrix[i, j] = Random.Shared.Next(1,10);
+      matrix[i, j] = Random.Shared.Next(1, 10);
     }
   }
   return matrix;
@@ -49,9 +49,9 @@ int[] GetPositionOfUser()
 int ComparisonOfPositions(int[,] matr, int[] array)
 {
   int value = 0;
-  if (array[0] < matr.GetLength(0) && array[1] < matr.GetLength(1)) 
+  if (array[0] < matr.GetLength(0) && array[1] < matr.GetLength(1))
   {
-  value = matr[array[0], array[1]];
+    value = matr[array[0], array[1]];
   }
   return value;
 }
@@ -81,6 +81,6 @@ PrintArray(number);
 int result = ComparisonOfPositions(number, arrayUser);
 if (result == 0)
 {
- Console.WriteLine("Такого элемента в массиве нет");
+  Console.WriteLine("Такого элемента в массиве нет");
 }
 else Console.WriteLine(GoodPrint(arrayUser, result));
