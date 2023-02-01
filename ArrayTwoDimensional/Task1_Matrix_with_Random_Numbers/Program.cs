@@ -26,10 +26,14 @@ double[,] GetMatrixRandom(int length, int width)
 // Метод распечатки матрицы
 void PrintArray(double[,] matr)
 {
+  //double[,] matrixNumbers = new double[matr.GetLength(0),matr.GetLength(1)];
   for (int i = 0; i < matr.GetLength(0); i++)
   {
     for (int j = 0; j < matr.GetLength(1); j++)
     {
+      // double distance = Math.Round(matr[i, j], 1);
+      // matrixNumbers[i,j] = distance;
+      // Console.Write($"{matrixNumbers[i,j]}|");
       Console.Write($"{Convert.ToDecimal(Math.Round(matr[i, j], 1))}|");
     }
     Console.WriteLine();
