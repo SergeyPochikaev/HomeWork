@@ -80,3 +80,16 @@ Console.WriteLine(GoodPrint(CreateArrayBin(n), ConvertArrayBitOnDecimal(CreateAr
 |*1*|*Задача 41*|*Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.*|__*Пример:*__ 0,7,8,-2,-2 -> 2; 1,-7,567,89,223 -> 3|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Continuation/Task1_InputNumbers_OutputCountMoreZero/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Continuation/Task1_InputNumbers_OutputCountMoreZero/diagram.drawio.png)|
 |*2*|*Задача 43*|*Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.*|__*Пример:*__ b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Continuation/Task2_PointIntersection_of_2_StraightLines/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayOneDimensional/Continuation/Task2_PointIntersection_of_2_StraightLines/diagram.drawio.png)|
 ---
+## __IV. Задачи по двухмерному массиву__
+---
+## __*1. Задачи по 7 семинару "Двухмерные массивы"*__
+~~~
+Задачи и их способы решения по Семинару 7 указаны в табл.№1
+~~~
+## __*Табл.№1 - Задачи по 7-му семинару*__
+|__*№*__|__*Наименование*__|__*Условия задачи*__|__*Комментарии*__|__*Приложение*__|
+|:-----:|:----------------:|:------------------:|:---------------:|:--------------:|
+|*1*|*Задача 47*|*Задайте двумерный массив размером m×n, заполненный случайными вещественными числами*|__*Пример:*__ m = 3, n = 4|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task1_Matrix_with_Random_Numbers/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task1_Matrix_with_Random_Numbers/diagram.drawio.png)|
+|*2*|*Задача 50*|*Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет*|__*Пример:*__ Например, задан 2-х мерный массив, где указывает значения или такого элемента в массиве нет|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task2_Guess_Position_in_Matrix_Get_Number/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task2_Guess_Position_in_Matrix_Get_Number/diagram.drawio.png)|
+|*3*|*Задача 52*|*Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце*|__*Пример:*__ Например, задан 2-х мерный массив, где указывает Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task3_ArithmeticMean_of_EachColumn_in_Matrix/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task3_ArithmeticMean_of_EachColumn_in_Matrix/diagram.drawio.png)|
+---
