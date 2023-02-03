@@ -9,7 +9,7 @@ int GetSizeMatrix()
   return length;
 }
 
-// Метод создания матрицы случайным образом
+// Метод создания матрицы случайным образом  
 int[,] GetMatrixRandomAndArray(int length)
 {
   int[,] matrix = new int[length, length];
