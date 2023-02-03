@@ -93,3 +93,12 @@ Console.WriteLine(GoodPrint(CreateArrayBin(n), ConvertArrayBitOnDecimal(CreateAr
 |*2*|*Задача 50*|*Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет*|__*Пример:*__ Например, задан 2-х мерный массив, где указывает значения или такого элемента в массиве нет|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task2_Guess_Position_in_Matrix_Get_Number/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task2_Guess_Position_in_Matrix_Get_Number/diagram.drawio.png)|
 |*3*|*Задача 52*|*Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце*|__*Пример:*__ Например, задан 2-х мерный массив, где указывает Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task3_ArithmeticMean_of_EachColumn_in_Matrix/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task3_ArithmeticMean_of_EachColumn_in_Matrix/diagram.drawio.png)|
 ---
+## __*1. Задачи по 8 семинару "Двухмерные массивы. Продолжение"*__
+~~~
+Задачи и их способы решения по Семинару 8 указаны в табл.№2
+~~~
+## __*Табл.№2 - Задачи по 8-му семинару*__
+|__*№*__|__*Наименование*__|__*Условия задачи*__|__*Комментарии*__|__*Приложение*__|
+|:-----:|:----------------:|:------------------:|:---------------:|:--------------:|
+|*1*|*Задача 56*|*Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов*|*Требуется реализовать метод для определения массива строк в случаи, если одинаковые наименьшие суммы*|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Continuation/Task1_FindRow_with_MinSum_of_Element/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Continuation/Task1_FindRow_with_MinSum_of_Element/diagram.drawio.png)|
+---
