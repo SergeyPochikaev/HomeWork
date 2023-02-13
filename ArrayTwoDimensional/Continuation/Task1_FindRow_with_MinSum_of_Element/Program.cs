@@ -5,7 +5,7 @@
 // Методом кортежа задается случайный размер матрицы m*m
 int GetSizeMatrix()
 {
-  int length = Random.Shared.Next(2, 5);
+  int length = Random.Shared.Next(3, 10);
   return length;
 }
 
@@ -42,20 +42,19 @@ int[] GetSumRow(int[,] matrix)
 // Метод определения строки из массива с наименьшей суммой
 void MinSumRow(int[] array)
 {
-  int min = array[0];
   int rowMin = 0;
   string res = String.Empty;
   for (int i = 0; i < array.Length; i++)
   {
-    if (array[i] <= min)
+    if (array[i] <= array[rowMin])
     {
-      min = array[i];
       rowMin = i;
-      //rowMin = i + 1;
-      //res = res + $"{rowMin} ";
+      res = $"{i + 1}-я строка, ";
     }
+    else if(array[i] == array[rowMin])
+    res += $"{i + 1}-я строка, ";
   }
-  res = $"{(rowMin + 1),2}";
+  res = res.Substring(0, res.Length - 2);
   Console.Write(res + " - Номер строки c наименьшим значением");
 }
 
