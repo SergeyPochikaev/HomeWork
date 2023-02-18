@@ -14,7 +14,7 @@ int GetValueNumber()
 string OutputNatural(int n)
 {
 
-  if (n < 1) return String.Empty;
+  if (n > 1) return String.Empty;
   else return $"{n}, " + OutputNatural(n - 1);
 }
 

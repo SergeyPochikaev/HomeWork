@@ -13,6 +13,9 @@ int GetValueNumber(string text)
 //Метод вывода суммы натуральных элементов в промежутке от M до N либо от N до M
 int SumElementsRec(int m, int n)
 {
+  // if (m <= n) return SumElementsRec(m, n - 1) + n;
+  // else if (m > n) return SumElementsRec(m - 1, n) + m;
+  // else return 0;
   if (m >= n) return SumElementsRec(m - 1, n) + m;
   else return 0;
 }
