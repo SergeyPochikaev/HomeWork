@@ -19,4 +19,5 @@ string OutputNatural(int n)
 }
 
 int n = GetValueNumber();
-Console.WriteLine($"N = {n} -> " + OutputNatural(n));
+string text = $"N = {n} -> " + OutputNatural(n);
+Console.WriteLine(text.Substring(0, text.Length - 2));
