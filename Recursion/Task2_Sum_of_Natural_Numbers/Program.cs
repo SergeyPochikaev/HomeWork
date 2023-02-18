@@ -34,4 +34,4 @@ int Check(int m, int n)
 
 int m = GetValueNumber("M");
 int n = GetValueNumber("N");
-Console.WriteLine(Check(m, n));
+Console.WriteLine($"m = {m}; n = {n} -> {Check(m, n)}");

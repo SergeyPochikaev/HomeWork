@@ -10,13 +10,13 @@ int GetValueNumber(string text)
 }
 
 // Метод вычисления функции Аккермана
-double A(double m, double n)
+double Ack(double m, double n)
 {
   if (m == 0) return n + 1;
-  else if (m > 0 && n == 0) return A(m - 1, 1);
-  else return A(m - 1, A(m, n - 1));
+  else if (m > 0 && n == 0) return Ack(m - 1, 1);
+  else return Ack(m - 1, Ack(m, n - 1));
 }
 
-int m = GetValueNumber("m");
-int n = GetValueNumber("n");
-Console.WriteLine(A(m, n));
+double m = GetValueNumber("m");
+double n = GetValueNumber("n");
+Console.WriteLine($"m = {m}, n = {n} -> A(m,n) = {Ack(m, n)}");
