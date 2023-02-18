@@ -102,3 +102,16 @@ Console.WriteLine(GoodPrint(CreateArrayBin(n), ConvertArrayBitOnDecimal(CreateAr
 |:-----:|:----------------:|:------------------:|:---------------:|:--------------:|
 |*1*|*Задача 56*|*Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов*|*Требуется реализовать метод для определения массива строк в случаи, если одинаковые наименьшие суммы*|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Continuation/Task1_FindRow_with_MinSum_of_Element/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Continuation/Task1_FindRow_with_MinSum_of_Element/diagram.drawio.png)|
 ---
+## __V. Задачи по рекурсии__
+---
+## __*1. Задачи по 9 семинару "Рекурсия"*__
+~~~
+Задачи и их способы решения по Семинару 9 указаны в табл.№1
+~~~
+## __*Табл.№1 - Задачи по 9-му семинару*__
+|__*№*__|__*Наименование*__|__*Условия задачи*__|__*Комментарии*__|__*Приложение*__|
+|:-----:|:----------------:|:------------------:|:---------------:|:--------------:|
+|*1*|*Задача 64*|*Задайте значение N. Напишите программу, которая выведет все натуральные числа в промежутке от N до 1. Выполнить с помощью рекурсии*|__*Пример:*__ N = 5 -> "5, 4, 3, 2, 1"|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/Recursion/Task1_Output_of_All_Natural_Numbers/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/Recursion/Task1_Output_of_All_Natural_Numbers/diagram.drawio.png)|
+|*2*|*Задача 66*|*Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N. Выполнить с помощью рекурсии*|__*Пример:*__ M = 1; N = 15 -> 120, но требуется дополнительно создать **Метод Bool**|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/Recursion/Task2_Sum_of_Natural_Numbers/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/Recursion/Task2_Sum_of_Natural_Numbers/diagram.drawio.png)|
+|*3*|*Задача 68*|*Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n*|__*Пример:*__ m = 2, n = 3 -> A(m,n) = 9, но требуется изменить тип вывода данных **для ввода m = 5 и n = 0**|[КОД](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task3_ArithmeticMean_of_EachColumn_in_Matrix/Program.cs) и [Блок-схема](https://github.com/SergeyPochikaev/HomeWork/tree/main/ArrayTwoDimensional/Task3_ArithmeticMean_of_EachColumn_in_Matrix/diagram.drawio.png)|
+---
