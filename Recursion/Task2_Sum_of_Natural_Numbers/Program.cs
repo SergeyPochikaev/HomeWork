@@ -18,6 +18,9 @@ int SumElementsRec(int m, int n)
   // else return 0;
   if (m >= n) return SumElementsRec(m - 1, n) + m;
   else return 0;
+  // if (m < n) return SumElementsRec(m, --n) + n;
+  // else if (m > n) return SumElementsRec(m, ++n) + n;
+  // else return n;
 }
 int UnSumElementsRec(int m, int n)
 {
